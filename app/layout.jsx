@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Maria's Portfolio",
+  title: "Maria Malato",
   description: "Generated Maria Malato",
 };
 
