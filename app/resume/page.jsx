@@ -87,37 +87,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I have gained strong theoretical and practical knowledge in computer science,with  a  focus  on  software  development.  Through  academic  projects  I have  developed  problem-solving  skills,  effective  teamwork,  and  theability to adapt to different technologies and frameworks.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "ESTG - Polytechnic Institute of Leiria",
+      degree: "Bachelor's Degree in Computer Science",
+      duration: "2022-Current",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "TVZ - Zagreb University of Applied Sciences",
+      degree: "Erasmus+ Exchange Program - Informatics",
+      duration: "Oct 2024 - Feb 2025",
     },
   ],
 };
