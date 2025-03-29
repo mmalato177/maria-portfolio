@@ -19,7 +19,7 @@ import { SiTailwindcss, SiBlazor, SiFlutter, SiMysql,SiAngular, SiNodedotjs   } 
 const about = {
   title: "About me",
   description:
-    "I'm a curious and motivated person with a strong passion for software development, which I discovered early on. I love learning new things and staying busy with projects that challenge me. I consider myself an organized person, a bit of a perfectionist, and always looking to improve. My curiosity and drive keep me constantly exploring and growing.",
+    "I am a curious and motivated person with a strong passion for software development, which I discovered early on. I love learning new things and staying busy with projects that challenge me. I consider myself an organized person, a bit of a perfectionist, and always looking to improve. My curiosity and drive keep me constantly exploring and growing.",
   info: [
     {
       fieldName: "Name",
