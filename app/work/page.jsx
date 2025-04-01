@@ -27,9 +27,9 @@ const projects = [
     description:
       "This was an academic project that originally featured a database with movies, tickets, and screenings. It has since evolved to utilize an API for fetching movies, whether they are upcoming or currently screening.",
     stack: [{ name: "Laravel" }, { name: "Blade" }, { name: "PHP" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/image.png",
     live: "",
-    github: "",
+    github: "https://github.com/mmalato177/CineMagic-Project",
   },
   {
     num: "02",
