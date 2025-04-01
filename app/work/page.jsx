@@ -29,6 +29,7 @@ const projects = [
     stack: [{ name: "Laravel" }, { name: "Blade" }, { name: "PHP" }, { name: "Tailwind.css" }],
     image: "/assets/work/image.png",
     github: "https://github.com/mmalato177/CineMagic-Project",
+    live: "",
   },
   {
     num: "02",
@@ -39,6 +40,7 @@ const projects = [
     stack: [{ name: "JavaScript" }, { name: "Css 3" }, { name: "HTML 5" }, { name: "Blender" }],
     image: "/assets/work/website3d.png",
     github: "https://github.com/mmalato177/3D-website",
+    live: "",
   },
   {
     num: "03",
@@ -49,6 +51,7 @@ const projects = [
     stack: [{ name: "HTML 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/assets/work/websiteDrCruzDinis.png",
     github: "",
+    live: "",
 
   },
 ];
