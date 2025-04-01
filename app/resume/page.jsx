@@ -106,7 +106,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I have a strong foundation in programming languages and frameworks, with a focus on web development. I am proficient in HTML, CSS, JavaScript, and various front-end frameworks such as Vue.js and Angular. Additionally, I have experience with back-end technologies like Node.js and databases like MySQL. I am also familiar with Python and Java for software development. My skills extend to UI/UX design using Figma and I am always eager to learn new technologies.",
   skillList: [
     {
       icon: <FaHtml5 />,

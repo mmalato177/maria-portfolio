@@ -25,6 +25,13 @@ const services = [
       "Leverage the power of artificial intelligence with custom AI model development services.",
     href: "/services/ai-models"
   },
+  {
+    num: "04",
+    title: "UI/UX Design",
+    description:
+      "Crafting user-centric designs that enhance user experience and engagement.",
+    href: "/services/ui-ux-design"
+  },
 ];
 
 import { motion } from "framer-motion";
