@@ -28,30 +28,28 @@ const projects = [
       "This was an academic project that originally featured a database with movies, tickets, and screenings. It has since evolved to utilize an API for fetching movies, whether they are upcoming or currently screening.",
     stack: [{ name: "Laravel" }, { name: "Blade" }, { name: "PHP" }, { name: "Tailwind.css" }],
     image: "/assets/work/image.png",
-    live: "",
     github: "https://github.com/mmalato177/CineMagic-Project",
   },
   {
     num: "02",
     category: "website",
-    title: "Dr.Cruz Dinis",
-    description:
-      "A website for a hair transplant surgeon, allowing users to view testimonials, learn more about the hair transplant process, and schedule consultations.",
-    stack: [{ name: "HTML 5" }, { name: "Css 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "website",
     title: "3D Website",
     description:
       "A replica of a Portuguese website that sells everything from furniture to clothing. We modified the sales page for a desk, reproduced it in Blender in 3D, added accessories on top, and included animations for drawers and doors.",
     stack: [{ name: "JavaScript" }, { name: "Css 3" }, { name: "HTML 5" }, { name: "Blender" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
+    image: "/assets/work/website3d.png",
+    github: "https://github.com/mmalato177/3D-website",
+  },
+  {
+    num: "03",
+    category: "website",
+    title: "Dr.Cruz Dinis",
+    description:
+      "A website for a hair transplant surgeon, allowing users to view testimonials, learn more about the hair transplant process, and schedule consultations.",
+    stack: [{ name: "HTML 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/assets/work/websiteDrCruzDinis.png",
     github: "",
+
   },
 ];
 
