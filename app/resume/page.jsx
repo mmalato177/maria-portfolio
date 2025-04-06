@@ -87,7 +87,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "I have gained strong theoretical and practical knowledge in computer science,with  a  focus  on  software  development.  Through  academic  projects  I have  developed  problem-solving  skills,  effective  teamwork,  and  theability to adapt to different technologies and frameworks.",
+    "I have gained strong theoretical and practical knowledge in computer science,with  a  focus  on  software  development.  Through  academic  projects  I have  developed  problem-solving  skills,  effective  teamwork,  and  the ability to adapt to different technologies and frameworks.",
   items: [
     {
       institution: "ESTG - Polytechnic Institute of Leiria",
