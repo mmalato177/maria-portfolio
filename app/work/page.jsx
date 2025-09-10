@@ -20,9 +20,20 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
-  {
+    {
     num: "01",
-    category: "fullstack",
+    category: "RH Platform",
+    title: "RH Platform - Document Management System",
+    description:
+      "Final academic project developed in a team of 2 people. A Human Resources Platform that streamlines recruitment and document management through automated templates, digital signing, and multi-device support.",
+    stack: [{ name: ".NET 8" }, { name: "Blazor Hybrid" }, { name: "SQL Server Express" }, { name: "RESTful APIs" }],
+    image: "/assets/work/prh.jpeg",
+    github: "https://github.com/ricardo-lopes-trigenius/PRH-Recrutamento",
+    live: "",
+  },
+  {
+    num: "02",
+    category: "CineMagic",
     title: "CineMagic",
     description:
       "This was an academic project that originally featured a database with movies, tickets, and screenings. It has since evolved to utilize an API for fetching movies, whether they are upcoming or currently screening.",
@@ -32,8 +43,8 @@ const projects = [
     live: "",
   },
   {
-    num: "02",
-    category: "website",
+    num: "03",
+    category: "La Redoute - 3D",
     title: "3D Website",
     description:
       "A replica of a Portuguese website that sells everything from furniture to clothing. We modified the sales page for a desk, reproduced it in Blender in 3D, added accessories on top, and included animations for drawers and doors.",
@@ -43,8 +54,8 @@ const projects = [
     live: "",
   },
   {
-    num: "03",
-    category: "website",
+    num: "04",
+    category: "Dr.Cruz Dinis",
     title: "Dr.Cruz Dinis",
     description:
       "A website for a hair transplant surgeon, allowing users to view testimonials, learn more about the hair transplant process, and schedule consultations.",
@@ -52,6 +63,17 @@ const projects = [
     image: "/assets/work/websiteDrCruzDinis.png",
     github: "",
     live: "",
+
+  },
+  {
+    num: "05",
+    category: "Modovip",
+    title: "MODOVIP",
+    description:"Modovip is a premium passenger transportation platform, offering comfortable, stylish, and eco-friendly travel experiences. The website provides information about services, fleet, and contact options, with support for both English and Portuguese.",
+    stack: [{ name: "HTML 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/assets/work/modovip.png",
+    github: "https://github.com/mmalato177/Modovip",
+    live: "https://modovip.pt/",
 
   },
 ];

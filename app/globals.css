@@ -22,4 +22,8 @@
   .text-outline-hover {
     -webkit-text-stroke: 1px #25347e ;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }

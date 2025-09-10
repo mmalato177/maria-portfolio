@@ -1,31 +1,27 @@
 "use client";
 
+import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 
 const links = [
-  {
-    name: "home",
-    path: "/",
-  },
-  {
-    name: "resume",
-    path: "/resume",
-  },
-  {
-      name: "work",
-    path: "/work",
-  },
-  {
-    name: "contact",
-    path: "/contact",
-  },
+  { name: "home", id: "home" },
+  { name: "resume", id: "resume" },
+  { name: "work", id: "work" },
+  { name: "contact", id: "contact" },
 ];
 
 const MobileNav = () => {
-  const pathname = usePathname();
+  const [active, setActive] = useState("home");
+
+  const handleScroll = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      setActive(id);
+    }
+  };
+
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
@@ -34,27 +30,26 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col">
         {/* logo */}
         <div className="mt-32 mb-40 text-center text-2xl">
-          <Link href="/">
-            <h1 className="text-4xl font-semibold">
-              Maria<span className="text-accent">.</span>
-            </h1>
-          </Link>
+          <h1 className="text-4xl font-semibold">
+            Maria<span className="text-accent">.</span>
+          </h1>
         </div>
+
         {/* nav */}
         <nav className="flex flex-col justify-center items-center gap-8">
-          {links.map((link, index) => {
-            return (
-              <Link
-                href={link.path}
-                key={index}
-                className={`${link.path === pathname &&
-                  "text-accent border-b-2 border-accent"
-                  } text-xl capitalize hover:text-accent transition-all`}
-              >
-                {link.name}
-              </Link>
-            );
-          })}
+          {links.map((link) => (
+            <button
+              key={link.id}
+              onClick={() => handleScroll(link.id)}
+              className={`text-xl capitalize transition-all ${
+                active === link.id
+                  ? "text-accent border-b-2 border-accent"
+                  : "hover:text-accent"
+              }`}
+            >
+              {link.name}
+            </button>
+          ))}
         </nav>
       </SheetContent>
     </Sheet>

@@ -9,10 +9,9 @@ import {
   FaPython,
   FaVuejs,
   FaPhp,
-  FaMicrosoft 
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiBlazor, SiFlutter, SiMysql,SiAngular, SiNodedotjs   } from "react-icons/si";
+import { SiTailwindcss, SiBlazor, SiFlutter, SiMysql,SiAngular, SiNodedotjs, SiDotnet, SiLaravel, SiOpenai, SiSharp   } from "react-icons/si";
 
 
 // about data
@@ -141,6 +140,10 @@ const skills = {
       name: "javascript",
     },
     {
+      icon: <SiSharp />,
+      name: "c#",
+    },
+    {
       icon: <FaJava />,
       name: "java",
     },  
@@ -152,9 +155,14 @@ const skills = {
       icon: <FaPhp />,
       name: "php",
     },
+
     {
-      icon: <FaMicrosoft />,
-      name: "c#",
+      icon: <SiDotnet />,
+      name: ".NET",
+    },
+    {
+      icon: <SiLaravel />,
+      name: "laravel",
     },
     {
       icon: <SiFlutter />,
@@ -163,6 +171,14 @@ const skills = {
     {
       icon: <SiMysql />,
       name: "My SQL",
+    },
+    {
+      icon: <FaFigma />,
+      name: ".NET",
+    },
+    {
+      icon: <SiOpenai />,
+      name: "Open AI",
     },
 
 
